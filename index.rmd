@@ -1,0 +1,67 @@
+---
+title: Agenda for RStudio Connect
+author: |-
+    Shripad Sinari \
+    Statistics Consulting Laboratory \
+    BIO5, The University of Arizona \
+    shripad@statlab.bio5.org
+date: 2021-09-29
+output:
+  xaringan::moon_reader:
+    nature:
+      highlightStyle: github
+      highlightLines: true
+---
+
+```{r xaringan-editable, echo=FALSE}
+xaringanExtra::use_editable(expires = 1)
+```
+
+# Data access
+
+<style>
+.red   { color: red      }
+.blue  { color: blue   }
+.small { font-size: 70%  }
+.remark-slide-content > h1 {
+  font-size: 30px;
+  margin-top: -15px;
+}
+</style>
+
+![](Screenshot from 2021-09-23 16-33-45.png)
+
+.can-edit[
+1. Where does the data reside?
+2. How can we give access to local data?
+3. Is Connect deployed within UA network?
+]
+
+---
+
+# Deployment strategies
+
+![](Screenshot from 2021-09-24 11-47-11.png)
+
+.can-edit[
+1. Can we deploy from bitbucket or github and if so how?
+2. Automatically update the asset on push to the git branch. How to do this?
+]
+---
+
+# Common use case for us
+
+![](Screenshot from 2021-09-24 11-53-48.png)
+
+1. RMD based reports
+2. Dashboards
+3. Parametrized reports (but very infrequent)
+
+In that order.
+
+---
+
+Thank you!
+
+
+
