@@ -81,6 +81,8 @@ In that order.
 
 [Workaround described here](https://github.com/yihui/xaringan/issues/106#issuecomment-474921723)
 
+Issue seems to be solved by workaround!
+
 ---
 
 Thank you!
