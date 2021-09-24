@@ -78,6 +78,7 @@ In that order.
 ![](Screenshot_from_2021-09-24_12-56-13.png)
 
 [Connect issue with Xaringan presentation figures](https://github.com/yihui/xaringan/issues/106#issue-292804953)
+
 [Workaround described here](https://github.com/yihui/xaringan/issues/106#issuecomment-474921723)
 
 ---
