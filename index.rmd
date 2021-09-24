@@ -11,7 +11,19 @@ output:
     nature:
       highlightStyle: github
       highlightLines: true
+resource_files:
+ -Screenshot_from_2021-09-23_16-33-45.png
+ -Screenshot_from_2021-09-24_11-47-11.png
+ -Screenshot_from_2021-09-24_11-53-48.png
+ -Screenshot_from_2021-09-24_12-56-13.png
+
 ---
+
+```{r, include=FALSE}
+rmarkdown::output_metadata$set(
+  rsc_output_files = list.files("images/00", recursive = TRUE, full.names = TRUE)
+)
+```
 
 ```{r xaringan-editable, echo=FALSE}
 xaringanExtra::use_editable(expires = 1)
@@ -29,7 +41,7 @@ xaringanExtra::use_editable(expires = 1)
 }
 </style>
 
-![](Screenshot from 2021-09-23 16-33-45.png)
+![](Screenshot_from_2021-09-23_16-33-45.png)
 
 .can-edit[
 1. Where does the data reside?
@@ -41,7 +53,7 @@ xaringanExtra::use_editable(expires = 1)
 
 # Deployment strategies
 
-![](Screenshot from 2021-09-24 11-47-11.png)
+![](Screenshot_from_2021-09-24_11-47-11.png)
 
 .can-edit[
 1. Can we deploy from bitbucket or github and if so how?
@@ -51,13 +63,22 @@ xaringanExtra::use_editable(expires = 1)
 
 # Common use case for us
 
-![](Screenshot from 2021-09-24 11-53-48.png)
+![](Screenshot_from_2021-09-24_11-53-48.png)
 
 1. RMD based reports
 2. Dashboards
 3. Parametrized reports (but very infrequent)
 
 In that order.
+
+---
+
+# Already found this issue with RStudio Connect
+
+![](Screenshot_from_2021-09-24_12-56-13.png)
+
+[Connect issue with Xaringan presentation figures](https://github.com/yihui/xaringan/issues/106#issue-292804953)
+[Workaround described here](https://github.com/yihui/xaringan/issues/106#issuecomment-474921723)
 
 ---
 
